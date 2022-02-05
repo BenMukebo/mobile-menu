@@ -11,11 +11,14 @@
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
-      </button>
-      <nav id="desktop-nav">
-        <ul>
+      <nav>
+        <div class="menu-bars">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="closed-menu-bars">
+          <i class="fa fa-close"></i>
+        </div>
+        <ul class="desktop-nav d-flex">
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
           <li><a class="nav-link" href="#about-me">About</a></li>
           <li>
@@ -26,6 +29,7 @@
         </ul>
       </nav>
     </header>
+  
     <main>
       <div id="intro">
         <div class="intro-icon">
@@ -279,7 +283,7 @@
             src="./media/svg/desktop-icon-2.svg"
             alt="Icon"
           />
-        </section>
+        </section>local machine
         <hr />
         <div class="stacks">
           <ul>
@@ -442,5 +446,6 @@
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
