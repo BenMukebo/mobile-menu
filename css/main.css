@@ -414,7 +414,7 @@ main {
   color: #172b4d;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -444,8 +444,7 @@ textarea {
   min-width: 50vw;
 }
 
-
-.name-form { 
+.name-form {
   display: none;
 }
 
@@ -497,7 +496,7 @@ textarea {
     margin-right: 10vw;
   }
 
-  .nav-link { 
+  .nav-link {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
