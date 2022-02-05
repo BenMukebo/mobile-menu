@@ -18,7 +18,7 @@ function closeMenu() {
 }
 
 navLinks.forEach((link) => {
-  link.addEventListener('clicks', closeMenu);
+  link.addEventListener('click', closeMenu);
 });
 
 showBtn.addEventListener('click', showMenu);
