@@ -16,7 +16,9 @@ function closeMenu() {
   html.style.overflow = 'auto';
 }
 
-
+navLinks.forEach((link) => {
+  link.addEventListener('clicks', closeMenu);
+});
 
 showBtn.addEventListener('click', showMenu);
 closedBtn.addEventListener('click', closeMenu);
