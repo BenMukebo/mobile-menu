@@ -10,5 +10,13 @@ function showMenu() {
   html.style.overflow = 'hidden';
 }
 
-showBtn.addEventListener('click', showMenu);
+function closeMenu() {
+  navMenu.classList.remove('open');
+  closedBtn.style.display = 'nonne';
+  html.style.overflow = 'auto';
+}
 
+
+
+showBtn.addEventListener('click', showMenu);
+closedBtn.addEventListener('click', closeMenu);
