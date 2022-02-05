@@ -14,6 +14,7 @@ function closeMenu() {
   navMenu.classList.remove('open');
   closedBtn.style.display = 'nonne';
   html.style.overflow = 'auto';
+  console.log(navMenu);
 }
 
 navLinks.forEach((link) => {
